@@ -54,9 +54,9 @@ export const LEETCODE_PORBLEMS_COUNT = 90;
 export const FREELANCE_PROJECT_COUNT = 3;
 
 export const CODING_PROFILE_DATA = [
-  { title: 'LINKEDIN CONNECTIONS', count: 1400 },
+  { title: 'LINKEDIN CONNECTIONS', count: 1500 },
   { title: 'GITHUB REPO', count: 20 },
-  { title: 'LEETCODE PROBLEMS', count: LEETCODE_PORBLEMS_COUNT },
+  { title: 'LEETCODE PROBLEMS', count: LEETCODE_PORBLEMS_COUNT }, 
   { title: 'TOTAL PROJECTS', count: PROJECT_COUNT },
   { title: 'FREELANCE PROJECT', count: FREELANCE_PROJECT_COUNT },
 ];
