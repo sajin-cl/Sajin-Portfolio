@@ -45,7 +45,7 @@ const About = () => {
           >
             <span
               className="hidden md:block text-white rounded-full px-4 py-1 text-xs outline outline-lime-500 hover:bg-lime-400 hover:text-black cursor-pointer"
-            >MERN STACK DEVELOPER </span>
+            >MERN STACK DEV </span>
             <span
               className="hidden md:block text-white rounded-full px-4 py-1 text-xs outline outline-lime-500 hover:bg-lime-400 hover:text-black cursor-pointer"
             >REACT DEVELOPER </span>
