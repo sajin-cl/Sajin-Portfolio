@@ -32,15 +32,15 @@ export default function Header() {
     <header className="fixed top-0 w-full bg-stone-950/98 z-50 overflow-x-hidden">
       <nav className="container mx-auto px-2 h-14 flex items-center justify-between">
         <a
-          className="text-xl font-bold text-lime-400 tracking-widest flex items-center gap-2 cursor-pointer "
+          className="text-xl font-bold text-lime-300 tracking-widest flex items-center gap-2 cursor-pointer animate-pulse"
           href="/#hero"
           onClick={(e) => {
             e.preventDefault();
             handleNavClick("/#hero");
           }}
         >
-          {"> >"}
-          <span className="drop-shadow-[0_0_55px_#0aff47] animate-pulse font-mono font-bold">{" SAJIN  CL"}</span>
+          <img src="/logo.png" alt="sajin-cl-logo" width={30} height={25}/>
+          <span className="drop-shadow-[0_0_55px_#0aff47]  font-mono font-bold">{"SAJIN  CL"}</span>
         </a>
 
         {/* Desktop Navbar */}
