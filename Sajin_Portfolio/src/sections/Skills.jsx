@@ -26,7 +26,7 @@ const Skills = () => {
           <span
             className="text-gray-400 text-xs font-mono"
           >
-            I SPECIALIZE IN THE FOLLOWING TECHNOLOGIES & FRAMEWORKS TO BRING IDEAS TO LIFE THROUGH INNOVATIVE SOLUTIONS
+            I SPECIALIZE IN THE FOLLOWING TECHNOLOGIES & FRAMEWORKS
           </span>
         </motion.p>
 

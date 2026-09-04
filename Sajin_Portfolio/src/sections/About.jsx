@@ -66,7 +66,7 @@ const About = () => {
             HELLO, I'M <span className="text-lime-300">SAJIN CL</span>, A
             <span className="text-lime-300"> FREELANCE WEB DEVELOPER</span> WHO BUILDS SCALABLE AND SECURE FULL-STACK APPLICATIONS.
             I WORK WITH REACT.JS, NEXT.JS, NODE.JS, EXPRESS, AND MONGODB TO DEVELOP RESPONSIVE
-            INTERFACES, POWERFUL BACKEND SYSTEMS, AND <span className="text-lime-300">SEO & SPEED OPTIMIZATION</span>. I HAVE BUILT <span className="text-lime-300">50+ RESTFUL APIS</span>,
+            INTERFACES, POWERFUL BACKEND SYSTEMS AND <span className="text-lime-300">SEO & SPEED OPTIMIZATION</span>. I HAVE BUILT <span className="text-lime-300">50+ RESTFUL APIS</span>,
             IMPLEMENTED <span className="text-lime-300">JWT/SESSION AUTHENTICATION </span> AND DEVELOPED ROLE-BASED
             ECOMMERCE PLATFORMS WITH A FOCUS ON CLEAN ARCHITECTURE AND PERFORMANCE.
           </motion.p>

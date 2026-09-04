@@ -27,7 +27,7 @@ const FAQ = () => {
           viewport={{ once: true }}
           className="text-gray-400 text-right mb-10 font-mono text-xs uppercase tracking-wider"
         >
-          Quick answers to common questions about my experience, skills, and
+          Quick answers to common questions about my experience, skills and
           availability.
         </motion.p>
       </div> 

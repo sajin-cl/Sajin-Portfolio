@@ -15,6 +15,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 flex flex-col lg:flex-row-reverse items-center justify-between gap-12">
         {/* RIGHT SIDE: Animated Image & Floating Icons */}
         <div className="relative flex justify-center items-center w-full lg:w-1/2">
+
           {/* Background Glow */}
           <div className="absolute w-72 h-72 md:w-96 md:h-96 bg-lime-400/10 rounded-full blur-[150px] animate-pulse"></div>
 
@@ -29,7 +30,7 @@ const Hero = () => {
           />
           <SiTailwindcss
             title="Framework"
-            className="absolute text-lime-400 size-10 bottom-20 right-0 md:right-15 animate-[bounce_3s_infinite] drop-shadow-[0_0_10px_#0aff47]"
+            className="absolute text-lime-400 size-10 bottom-20 right-5 md:right-10 animate-[bounce_3s_infinite] drop-shadow-[0_0_10px_#0aff47]"
           />
 
           <motion.div
@@ -46,7 +47,7 @@ const Hero = () => {
           </motion.div>
 
           {/* Hero Profile Image */}
-          <div className="relative size-72 md:size-112 rounded-full overflow-hidden flex items-center justify-center">
+          <div className="relative size-72 md:size-[500px] rounded-full overflow-hidden flex items-center justify-center">
             <motion.img
               initial={{ translateY: 0 }}
               animate={{ translateY: 15 }}
@@ -94,7 +95,7 @@ const Hero = () => {
           </div>
 
           <motion.p
-            className="text-gray-400 text-xs max-w-lg mx-auto lg:mx-0 leading-relaxed font-mono animate-pulse"
+            className="text-gray-400 text-xs max-w-lg mx-auto lg:mx-0 leading-relaxed font-mono"
             initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1, transition: { duration: 0.5 } }}
             viewport={{ once: true }}

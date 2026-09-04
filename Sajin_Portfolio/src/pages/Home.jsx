@@ -14,7 +14,6 @@ const Projects = lazy(() => import("@/sections/Projects"));
 const Certifications = lazy(() => import("@/sections/Certifications"));
 const Contact = lazy(() => import("@/sections/Contact"));
 const FAQ = lazy(() => import("@/sections/FAQ"));
-const Blog = lazy(() => import("@/sections/Blog"));
 
 
 
@@ -31,14 +30,14 @@ export default function Home() {
       <Toaster position="bottom-right" toastOptions={{ style: { width: "250px" } }} />
       <Suspense fallback={loader}>
         <Hero />
-        <CodingProfiles />
+      
         <BackToTop />
+        <CodingProfiles/>
         <About />
         <Skills />
         <Leetcode />
         <Projects />
         <Certifications />
-        {/*<Blog/>*/}
         <Testimonials testimonials={TESTIMONIALS_DATA} />
         <FAQ/>
         <Contact />
