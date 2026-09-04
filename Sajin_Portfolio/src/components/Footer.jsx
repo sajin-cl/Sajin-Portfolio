@@ -1,4 +1,4 @@
-import { NAV_LINKS, SOCIAL_LINKS } from "@/config/data";
+import { SOCIAL_LINKS } from "@/config/data";
 import { motion } from 'framer-motion';
 
 const Footer = () => {
@@ -12,8 +12,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row justify-between items-center gap-6">
         {/* Logo */}
         <a
-        href="#hero"
-          className="text-white text-sm tracking-widest w-1/8 flex  justify-center">
+          href="#hero"
+          className="text-white text-sm tracking-widest flex  justify-center">
           <img src="/logo.png" alt="logo" loading="lazy" className="h-12 w-auto object-contain" />
           <div className="footer-logo-info ml-3">
             <p className="text-xl font-poppins">Sajin</p>
@@ -21,14 +21,7 @@ const Footer = () => {
           </div>
         </a>
 
-        {/* Links */}
-        <div className="text-white font-mono flex flex-wrap justify-center items-center gap-5 mx-auto">
-          {NAV_LINKS.map((link, idx) => (
-            <a key={idx} href={link.href} className="hover:text-lime-300 transition text-sm">
-              {link.name}
-            </a>
-          ))}
-        </div>
+
 
         {/* Social */}
         <div className="text-white text-xl flex gap-3">

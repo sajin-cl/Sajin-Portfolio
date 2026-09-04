@@ -107,7 +107,11 @@ const Hero = () => {
           >
             <Typewriter
               options={{
-                strings: ["BE,COMPUTER SCIENCE ENGINEER", "MERN STACK DEVELOPER INTERN – LOGIPROMPT TECHNO SOLUTIONS, TRIVANDRUM"],
+                strings: [
+                  "BE,COMPUTER SCIENCE ENGINEER",
+                   "MERN STACK DEVELOPER INTERN – LOGIPROMPT TECHNO SOLUTIONS, TRIVANDRUM",
+                   "Junior Software Developer - Ordinal Technologies Solutions"
+                  ],
                 autoStart: true,
                 loop: true,
                 delay: 60,

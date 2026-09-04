@@ -64,10 +64,10 @@ const About = () => {
             viewport={{ once: true }}
           >
             HELLO, I'M <span className="text-lime-300">SAJIN CL</span>, A
-            <span className="text-lime-300"> FREELANCE MERN STACK DEVELOPER</span> WHO BUILDS SCALABLE AND SECURE FULL-STACK APPLICATIONS.
+            <span className="text-lime-300"> FREELANCE WEB DEVELOPER</span> WHO BUILDS SCALABLE AND SECURE FULL-STACK APPLICATIONS.
             I WORK WITH REACT.JS, NEXT.JS, NODE.JS, EXPRESS, AND MONGODB TO DEVELOP RESPONSIVE
             INTERFACES, POWERFUL BACKEND SYSTEMS, AND <span className="text-lime-300">SEO & SPEED OPTIMIZATION</span>. I HAVE BUILT <span className="text-lime-300">50+ RESTFUL APIS</span>,
-            IMPLEMENTED <span className="text-lime-300">JWT/SESSION AUTHENTICATION & BCRYPT PASSWORD HASHING</span> AND DEVELOPED ROLE-BASED
+            IMPLEMENTED <span className="text-lime-300">JWT/SESSION AUTHENTICATION </span> AND DEVELOPED ROLE-BASED
             ECOMMERCE PLATFORMS WITH A FOCUS ON CLEAN ARCHITECTURE AND PERFORMANCE.
           </motion.p>
         </div>
@@ -142,7 +142,7 @@ const About = () => {
           title="MongoDB, Express.js, React.js, Node.js"
         >
           <span className="group-hover:text-lime-300 duration-500 animate-pulse mr-2 group-hover:mr-3 group-hover:font-bold">MERN</span>
-          <Link className="text-lime-300  group-hover:text-gray-100 duration-200 ">Stack</Link>
+          <Link className="text-lime-300  group-hover:text-gray-100 duration-200 text-lg">stack</Link>
         </span>
 
 
@@ -161,22 +161,22 @@ const About = () => {
           <li className="text-xl mb-3 grid grid-cols-[auto_1fr] gap-3 items-center">
             <span className="text-gray-400">→</span>
             <div>
-              <span>Compress</span>
-              <span className="text-lime-300 font-bold"> Images</span>
+              <span className="text-sm">compress</span>
+              <span className="text-lime-300 font-bold"> IMAGES</span>
             </div>
           </li>
           <li className="text-xl mb-3 grid grid-cols-[auto_1fr] gap-3 items-center">
             <span className="text-gray-400">→</span>
             <div>
-              <span>Lazy</span>
-              <span className="text-lime-300 font-bold"> Loading</span>
+              <span className="text-sm">lazy</span>
+              <span className="text-lime-300 font-bold"> LOADING</span>
             </div>
           </li>
           <li className="text-xl mb-3 grid grid-cols-[auto_1fr] gap-3 items-center">
             <span className="text-gray-400">→</span>
             <div>
-              <span>Minify</span>
-              <span className="text-lime-300 font-bold"> Code</span>
+              <span className="text-sm">minify</span>
+              <span className="text-lime-300 font-bold"> CODE</span>
             </div>
           </li>
         </ul>

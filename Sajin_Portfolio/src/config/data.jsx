@@ -71,8 +71,7 @@ export const SKILLS_DATA = {
     { name: "Figma", color: "#FF007F", icon: SiFigma, isVisible: true },
     { name: "Vercel", color: "#FFFFFF", icon: SiVercel, isVisible: true },
     { name: "Windows", color: "#0078D4", icon: AiFillWindows , isVisible: true },
-    { name: "Linux", color: "#FFFFFF", icon: FaLinux , isVisible: true },
-    { name: "Antigravity IDE", color: null, icon: null, isVisible: false },
+    { name: "Linux", color: "#FFFFFF", icon: FaLinux , isVisible: true }
   ],
   techStack: [
     { name: "HTML", color: "#FF5733", type: 'Frontend', icon: SiHtml5, isVisible: true },
@@ -304,7 +303,7 @@ export const TESTIMONIALS_DATA = [
   {
     quote: "The Cherry's Honey eCommerce website looks modern and smooth. The CRM and order management system were done really well, making it easy to manage customers and sales.",
     name: "Sajin.D",
-    title: "Cherrys Honey Ecommerce Owner",
+    title: "Cherrys Honey",
   },
 
 ];
@@ -328,20 +327,8 @@ export const FAQ_DATA = [
     a: "I am seeking Frontend Developer, Backend Developer, React Developer, MERN Stack Developer, or Full Stack Developer roles."
   },
   {
-    q: "Are your projects live?",
-    a: "Yes. Most of my projects are deployed and include both live demos and source code for review."
-  },
-  {
-    q: "Do you work with Git and GitHub?",
-    a: "Yes. I use Git and GitHub for version control, project management, and collaboration for testing purposes."
-  },
-  {
     q: "Can you work with existing codebases?",
     a: "Yes. I will take the time to understand the existing codebase, learn the project structure, and contribute by fixing issues and implementing new features."
-  },
-  {
-    q: "Are you open to remote or onsite opportunities?",
-    a: "Yes. I am open to remote, hybrid, and onsite opportunities."
   },
   {
     q: "Why should we hire you?",
