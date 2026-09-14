@@ -50,7 +50,7 @@ export const CONTACT_DETAILS_DATA = [
 
 /* --------------------------------------------------Counting Details------------------------------------------------------------------- */
 export const PROJECT_COUNT = 10;
-export const LEETCODE_PORBLEMS_COUNT = 90;
+export const LEETCODE_PORBLEMS_COUNT = 100;
 export const FREELANCE_PROJECT_COUNT = 3;
 
 export const CODING_PROFILE_DATA = [
