@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaWhatsapp,FaLinux } from "react-icons/fa";
+import { FaGithub,FaGitlab, FaLinkedin, FaWhatsapp,FaLinux } from "react-icons/fa";
 import {
   SiLeetcode, SiPostman, SiHtml5, SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiExpress, SiTailwindcss, SiBootstrap, SiFigma, SiVercel, SiMongodb, SiGithub, SiHandlebarsdotjs, SiSubstack,SiGsap
 } from "react-icons/si";
@@ -27,21 +27,22 @@ export const NAV_LINKS = [
 /* --------------------------------------------------Social Links------------------------------------------------------------------- */
 export const SOCIAL_LINKS = [
   { icon: FaGithub, href: "https://github.com/sajin-cl", name: 'Github' },
+  { icon: FaGitlab, href: "https://gitlab.com/sajin-cl", name: 'Gitlab' },
   { icon: FaLinkedin, href: "https://www.linkedin.com/in/sajincl/", name: 'Linkedin' },
   { icon: SiSubstack, href: "https://sajincl.substack.com/p/looking-for-a-freelance-web-developer", name: 'Substack Blog' },
   { icon: SiLeetcode, href: "https://leetcode.com/u/sajin-cl/", name: 'Leetcode' },
   { icon: FaWhatsapp, href: "https://wa.me/918056825814", name: 'WhatsApp' },
   {
     icon: MdAttachEmail,
-    href: "https://mail.google.com/mail/?view=cm&fs=1&to=sajincl222@gmail.com&su=Hiring%20Inquiry&body=Hi%20Sajin,%0A%0AI%20would%20like%20to%20discuss%20a%20job%20opportunity%20with%20you.",
-    name: 'sajincl222@gmail.com'
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=sajincl.dev@gmail.com&su=Hiring%20Inquiry&body=Hi%20Sajin,%0A%0AI%20would%20like%20to%20discuss%20a%20job%20opportunity%20with%20you.",
+    name: 'sajincl.dev@gmail.com'
   },
   { icon: MdOutlineWifiCalling3, href: "tel:+918056825814", name: '+91 8056 8258 14' }
 ];
 
 /* --------------------------------------------------Contact Details------------------------------------------------------------------- */
 export const CONTACT_DETAILS_DATA = [
-  { label: 'EMAIL', href: 'sajincl222@gmail.com', icon: MdAttachEmail },
+  { label: 'EMAIL', href: 'sajincl.dev@gmail.com', icon: MdAttachEmail },
   { label: 'MOBILE NO', href: '+91 8056 8258 14', icon: MdOutlineWifiCalling3 },
   { label: 'GITHUB', href: 'github.com/sajin-cl', icon: FaGithub },
   { label: 'LINKEDIN', href: 'linkedin.com/in/sajincl', icon: FaLinkedin },
@@ -68,6 +69,7 @@ export const SKILLS_DATA = {
     { name: "VS Code", color: "#007ACC", icon: VscVscode, isVisible: true },
     { name: "Postman", color: "#FF6C37", icon: SiPostman, isVisible: true },
     { name: "GitHub", color: "#FFFFFF", icon: SiGithub, isVisible: true },
+    { name: "Gitlab", color: "#FF6C37", icon: FaGitlab, isVisible: true },
     { name: "Figma", color: "#FF007F", icon: SiFigma, isVisible: true },
     { name: "Vercel", color: "#FFFFFF", icon: SiVercel, isVisible: true },
     { name: "Windows", color: "#0078D4", icon: AiFillWindows , isVisible: true },
@@ -103,14 +105,12 @@ export const PROFICIENCY_DATA = [
 ];
 
 export const SERVICE_INTEGRATIONS_DATA = [
-  { id: 1, name: 'Bcrypt ( Hashing )' },
-  { id: 2, name: 'JWT Auth' },
-  { id: 3, name: 'Session Auth' },
-  { id: 4, name: 'Restful APIs' },
-  { id: 5, name: 'Cloudinary ( Image Storage )' },
-  { id: 6, name: 'Cashfree ( Payment )' },
-  { id: 7, name: 'Hostinger ( Domain )' },
-  { id: 8, name: 'Vercel ( Hosting )' },
+  { id: 1, name: 'Password Hashing' },
+  { id: 2, name: 'JWT/Session Auth' },
+  { id: 3, name: 'Restful APIs' },
+  { id: 4, name: 'Cloudinary ( Image Storage )' },
+  { id: 5, name: 'Cashfree ( Payment )' },
+  { id: 6, name: 'Vercel' },
 ];
 
 
@@ -304,6 +304,11 @@ export const TESTIMONIALS_DATA = [
     quote: "The Cherry's Honey eCommerce website looks modern and smooth. The CRM and order management system were done really well, making it easy to manage customers and sales.",
     name: "Sajin.D",
     title: "Cherrys Honey",
+  },
+  {
+    quote: "Sajin creates professional and creative poster designs for our digital marketing campaigns. He understands our requirements quickly and consistently delivers engaging designs",
+    name: "Abilash",
+    title: "Digital Marketing Agency",
   },
 
 ];

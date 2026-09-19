@@ -64,11 +64,7 @@ const About = () => {
             viewport={{ once: true }}
           >
             HELLO, I'M <span className="text-lime-300">SAJIN CL</span>, A
-            <span className="text-lime-300"> FREELANCE WEB DEVELOPER</span> WHO BUILDS SCALABLE AND SECURE FULL-STACK APPLICATIONS.
-            I WORK WITH REACT.JS, NEXT.JS, NODE.JS, EXPRESS, AND MONGODB TO DEVELOP RESPONSIVE
-            INTERFACES, POWERFUL BACKEND SYSTEMS AND <span className="text-lime-300">SEO & SPEED OPTIMIZATION</span>. I HAVE BUILT <span className="text-lime-300">50+ RESTFUL APIS</span>,
-            IMPLEMENTED <span className="text-lime-300">JWT/SESSION AUTHENTICATION </span> AND DEVELOPED ROLE-BASED
-            ECOMMERCE PLATFORMS WITH A FOCUS ON CLEAN ARCHITECTURE AND PERFORMANCE.
+            <span className="text-lime-300"> FREELANCE WEB DEVELOPER</span> BUILDING SCALABLE FULL-STACK APPLICATIONS WITH REACT.JS, NEXT.JS, NODE.JS, EXPRESS, AND MONGODB. I FOCUS ON RESPONSIVE UI, SECURE BACKEND SYSTEMS, <span className="text-lime-300">SEO & SPEED OPTIMIZATION</span>.I ALSO CREATE PROFESSIONAL <span className="text-lime-300">POSTER DESIGNS</span> FOR DIGITAL MARKETING CAMPAIGNS AND BUSINESS PROMOTIONS.
           </motion.p>
         </div>
       </div>
