@@ -11,7 +11,7 @@ const Skills = () => {
           initial={{ x: -50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1, transition: { duration: 0.6 } }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-bold text-white group px-4 md:px-10"
+          className="text-4xl md:text-5xl font-mono font-bold text-white group px-4 md:px-10"
         >
           <span className="text-white group-hover:text-lime-400 transition duration-300">SKILLS</span>
           <span className="text-gray-400"> &</span> <span className="text-lime-400 group-hover:text-white transition duration-300">TECHNOLOGY</span>

@@ -53,7 +53,7 @@ const Contact = () => {
       }
       );
 
-    
+
       const data = await response.json();
 
       if (data.success) {
@@ -92,7 +92,7 @@ const Contact = () => {
           initial={{ x: -50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1, transition: { duration: 0.6 } }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-bold text-white mb-5"
+          className="text-4xl md:text-5xl font-mono font-bold text-white mb-5"
         >
           CONTACT <span className="text-lime-300">US</span>
         </motion.h1>
@@ -154,7 +154,7 @@ const Contact = () => {
           >
             <div>
               <label className="block text-xs font-mono text-lime-200 mb-1">
-                NAME :
+                {'>'} NAME
               </label>
               <input
                 type="text"
@@ -163,14 +163,14 @@ const Contact = () => {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="Your name"
-                className="w-full border text-gray-300 text-sm py-4 border-gray-800 px-4 focus:outline-none focus:ring-2 focus:ring-lime-400"
+                placeholder="your name"
+                className="w-full border font-mono text-gray-300 text-sm py-4 border-gray-800 px-4 focus:outline-none focus:ring-2 focus:ring-lime-400"
               />
             </div>
 
             <div>
-              <label className="block text-xs text-lime-200 mb-1">
-                EMAIL :
+              <label className="block text-xs font-mono text-lime-200 mb-1">
+                {'>'} EMAIL 
               </label>
               <input
                 type="email"
@@ -180,13 +180,13 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="your@gmail.com"
-                className="w-full border text-gray-300 py-4 text-xs border-gray-800 px-4 focus:outline-none focus:ring-2 focus:ring-lime-400"
+                className="w-full border font-mono text-gray-300 py-4 text-xs border-gray-800 px-4 focus:outline-none focus:ring-2 focus:ring-lime-400"
               />
             </div>
 
             <div>
-              <label className="block text-xs text-lime-200 mb-1">
-                INQUIRY TYPE :
+              <label className="block text-xs font-mono text-lime-200 mb-1">
+               {'>'} INQUIRY_TYPE 
               </label>
 
               <select
@@ -194,9 +194,9 @@ const Contact = () => {
                 required
                 value={formData?.inquiryType}
                 onChange={handleChange}
-                className="w-full border text-gray-500 py-3 text-sm border-gray-800 px-3 bg-stone-950 focus:outline-none focus:ring-2 focus:ring-lime-400"
+                className="w-full border text-gray-500 font-mono py-3 text-sm border-gray-800 px-3 bg-stone-950 focus:outline-none focus:ring-2 focus:ring-lime-400"
               >
-                <option value="">Select an option</option>
+                <option value="">select an option</option>
                 <option value="HR / Recruitment">
                   HR / Recruitment
                 </option>
@@ -207,8 +207,8 @@ const Contact = () => {
             </div>
 
             <div>
-              <label className="block text-xs text-lime-200 mb-1">
-                MESSAGE :
+              <label className="block text-xs font-mono text-lime-200 mb-1">
+                {'>'} MESSAGE 
               </label>
               <textarea
                 rows="4"
@@ -216,8 +216,8 @@ const Contact = () => {
                 autoComplete="off"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="Write your message..."
-                className="w-full border border-gray-800 text-gray-300 text-sm px-4 py-2 focus:outline-none focus:ring-2 focus:ring-lime-400"
+                placeholder="write your message here..."
+                className="w-full border border-gray-800 font-mono text-gray-300 text-sm px-4 py-2 focus:outline-none focus:ring-2 focus:ring-lime-400"
               ></textarea>
             </div>
 

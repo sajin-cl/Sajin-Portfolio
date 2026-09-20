@@ -54,7 +54,7 @@ const Certifications = () => {
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1, transition: { duration: 0.6 } }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-semibold text-white"
+            className="text-4xl md:text-5xl font-mono font-semibold text-white"
           >
             CERTIFI<span className="text-lime-400">CATIONS</span>
           </motion.h1>
@@ -66,7 +66,7 @@ const Certifications = () => {
             viewport={{ once: true }}
           >
             <span className="text-gray-400 text-xs">
-              VERIFIED CERTIFICATIONS AND ACHIEVEMENTS ( {CERTIFICATIONS_DATA.length || 6} )
+               VERIFIED CERTIFICATIONS AND ACHIEVEMENTS ( {CERTIFICATIONS_DATA.length || 6} )
             </span>
           </motion.p>
         </div>

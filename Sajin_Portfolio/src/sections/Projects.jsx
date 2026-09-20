@@ -54,7 +54,7 @@ export default function Projects() {
             initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1, transition: { duration: 0.6 } }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-semibold text-white "
+            className="text-4xl md:text-5xl font-mono font-semibold text-white "
           >
             PRO<span className="text-lime-400">JECTS</span>
           </motion.h1>
@@ -85,7 +85,7 @@ export default function Projects() {
 
                 {/* Project Banner */}
                 <div className="w-full relative h-48 bg-[#0b0b01] flex items-center justify-center px-2">
-                  <div className="absolute top-5 left-5 text-5xl text-gray-300 font-sans font-bold opacity-20">
+                  <div className="absolute top-5 left-5 text-5xl text-gray-300 font-space font-bold opacity-20">
                     {project?.no}
                   </div>
                   <div className="text-lime-300 text-2xl md:text-3xl font-popins font-bold text-center group-hover:scale-110 duration-1000 transition">
@@ -113,7 +113,7 @@ export default function Projects() {
                   </h3>
                   {/* Descrription */}
                   <p
-                    className="text-gray-500 text-xs leading-loose tracking-wide h-20 overflow-hidden text-ellipsis"
+                    className="text-gray-500 text-xs font-mono leading-loose tracking-wide h-20 overflow-hidden text-ellipsis"
                   >
                     {project?.description}
                   </p>

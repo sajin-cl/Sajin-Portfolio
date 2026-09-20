@@ -28,7 +28,7 @@ const About = () => {
         {/* Right side content */}
         <div className="w-full lg:w-1/2 text-center md:text-left p-3 relative">
           <motion.h1
-            className="h1 text-white py-3 text-center lg:text-left"
+            className="h1 text-white py-3 text-center lg:text-left font-mono"
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1, transition: { duration: 0.5 } }}
             viewport={{ once: true }}
@@ -58,7 +58,7 @@ const About = () => {
           </motion.h2>
 
           <motion.p
-            className="text-white text-base leading-normal tracking-wide py-3 [word-spacing:0.25rem] md:[word-spacing:0.5rem] font-mono text-center lg:text-left"
+            className="text-white text-base leading-normal tracking-widest py-3 [word-spacing:0.25rem] md:[word-spacing:0.5rem] font-space text-center lg:text-left"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, transition: { duration: 1 } }}
             viewport={{ once: true }}

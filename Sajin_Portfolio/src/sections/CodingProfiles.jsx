@@ -17,11 +17,11 @@ function CodingProfiles() {
       <div className="flex flex-col md:flex-row flex-wrap items-center gap-10 lg:gap-20">
         {CODING_PROFILE_DATA.map((prof, idx) => (
           <div key={idx} className="linkedin-stats text-center">
-            <h1 className="text-gray-400 text-sm tracking-widest mb-3">
+            <h1 className="text-gray-400 text-sm font-space tracking-widest mb-3">
               {prof?.title}
             </h1>
-            <span className="inline-block text-lime-300 text-5xl font-bold">
-              <Counter value={prof?.count} start={start} /> {prof?.count >= 10 ? '+' : ''}
+            <span className="inline-block text-white text-5xl font-bold">
+              <Counter value={prof?.count} start={start} /> {prof?.count >= 10 ? <span className='text-lime-300'>+</span> : ''}
             </span>
           </div>
         ))}

@@ -1,12 +1,17 @@
-@import url('https://googleapis.com');
-
 @import "tailwindcss";
 
 @theme {
+
+  /*colors*/
   --color-brand-green: #9de410;
+
+
+  /*fonts*/
   --font-poppins: "Poppins", sans-serif;
   --font-inter: "Inter", sans-serif;
   --font-bebas: "Bebas Neue", sans-serif;
+  --font-space: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
 }
 
 @layer base {

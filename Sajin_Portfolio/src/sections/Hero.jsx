@@ -1,5 +1,5 @@
 import { SOCIAL_LINKS, PROJECT_COUNT } from "@/config/data";
-import { SiReact, SiTailwindcss, SiMongodb } from "react-icons/si";
+import { SiReact, SiTailwindcss } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import Counter from "@/components/Counter";
@@ -36,7 +36,7 @@ const Hero = () => {
           <motion.div
             drag
             dragConstraints={{ left: 0, right: 0, bottom: 0, top: 0 }}
-            className="absolute top-10 left-5 md:left-0 -rotate-18 text-lime-400 font-bold animate-[bounce_2s_infinite] border-y-2 border-lime-300 p-4 md:p-6 rounded-full drop-shadow-[0_0_15px_#84ff65]"
+            className="absolute top-10 left-5 md:left-0 -rotate-18 font-space text-lime-400 font-bold animate-[bounce_2s_infinite] border-y-2 border-lime-300 p-4 md:p-6 rounded-full drop-shadow-[0_0_15px_#84ff65]"
           >
             <div className="text-3xl md:text-5xl font-bold">
               <Counter value={PROJECT_COUNT} start={true} />+
@@ -68,10 +68,10 @@ const Hero = () => {
 
         {/* LEFT SIDE: Text & Social Content */}
         <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
-          <h1 className="text-gray-300 text-5xl font-bold hidden xl:block">FULL STACK DEVELOPER</h1>
-          <h1 className=" text-sm text-lime-400 tracking-wide font-mono ">
+          <h1 className="text-gray-300 text-5xl font-bold hidden xl:block font-space">FULL STACK DEVELOPER</h1>
+          <h1 className=" text-sm text-lime-400 tracking-wide font-mono">
             <span
-              className="inline-block w-2 h-2 bg-lime-400 rounded-full animate-pulse shadow-[0_0_8px_#84cc16] [animation-duration:0.7s] mr-2"
+              className="inline-block w-2 h-2 bg-lime-400 rounded-full animate-pulse shadow-[0_0_8px_#84cc16] [animation-duration:0.7s] mr-2 "
             >
             </span>
             AVAILABLE FOR WORK - TAMIL NADU | KERALA | BANGALORE
@@ -80,7 +80,7 @@ const Hero = () => {
           <h2 className="text-gray-100 text-5xl font-bold tracking-widest font-inter">SAJIN CL</h2>
 
           <div className="min-h-10">
-            <h2 className="flex items-center justify-center lg:justify-normal gap-2 text-xl  font-bold bg-linear-to-r from-lime-400 via-lime-200 to-green-500 bg-clip-text text-transparent">
+            <h2 className="flex items-center justify-center lg:justify-normal gap-2 text-xl  font-bold bg-linear-to-r from-lime-400 via-lime-200 to-green-500 bg-clip-text text-transparent font-mono">
               <span className="hidden lg:block text-gray-300">→</span>
               <Typewriter
                 options={{
@@ -104,7 +104,7 @@ const Hero = () => {
           </motion.p>
 
           <h2
-            className="text-sm md:text-lg font-mono font-bold bg-linear-to-r from-lime-200 via-lime-100 to-whie-400 bg-clip-text text-transparent"
+            className="text-sm md:text-lg font-space font-bold bg-linear-to-r from-lime-200 via-lime-100 to-whie-400 bg-clip-text text-transparent"
           >
             <Typewriter
               options={{
@@ -152,7 +152,7 @@ const Hero = () => {
               href="/SajinCL_Mern_Stack_Developer_Resume.pdf"
               download="SajinCL_Mern_Stack_Developer_Resume.pdf"
               onClick={() => toast.success("CV Downloaded!")}
-              className="whitespace-nowrap px-16 md:px-28 py-3 bg-lime-400 text-black font-bold hover:bg-lime-300 transition-all duration-300 shadow-lg shadow-lime-400/20 hover:scale-105 active:scale-95 tracking-wider"
+              className="whitespace-nowrap px-16 md:px-28 py-3 bg-lime-400 text-black font-mono font-bold hover:bg-lime-300 transition-all duration-300 shadow-lg shadow-lime-400/20 hover:scale-105 active:scale-95 tracking-wider"
             >
               <span className="flex gap-3 items-center"> <GrDownload /> DOWNLOAD → CV</span>  
             </motion.a>

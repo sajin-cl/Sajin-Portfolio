@@ -40,11 +40,11 @@ export default function Header() {
           }}
         >
           <img src="/logo.png" alt="sajin-cl-logo" width={30} height={25}/>
-          <span className="drop-shadow-[0_0_55px_#0aff47]  font-mono font-bold">{"SAJIN  CL"}</span>
+          <span className="drop-shadow-[0_0_55px_#0aff47]  font-space font-bold">{"SAJIN  CL"}</span>
         </a>
 
         {/* Desktop Navbar */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center font-mono text-sm gap-8">
           {NAV_LINKS.map((link, index) => (
             isHashLink(link.href) ? (
               <a
@@ -77,7 +77,7 @@ export default function Header() {
             }}
             className="bg-lime-400 font-semibold  px-5 py-2 inline-block transform skew-x-[-20deg] hover:bg-lime-300 transition"
           >
-            <span className="block skew-x-20 text-xs  -tracking-tight">
+            <span className="block skew-x-20 text-xs font-popins -tracking-tight">
               HIRE ME ↗
             </span>
           </a>
@@ -100,7 +100,7 @@ export default function Header() {
 
       {/* Mobile Dropdown */}
       {isOpen && (
-        <div className="md:hidden bg-stone-950 border-t border-stone-800">
+        <div className="md:hidden bg-stone-950 border-t font-space border-stone-800">
           {NAV_LINKS.map((link, index) => (
             isHashLink(link.href) ? (
               <a
@@ -111,7 +111,7 @@ export default function Header() {
                   handleNavClick(link.href);
                   setIsOpen(false);
                 }}
-                className="block px-6 py-3 text-gray-400 nav-glow transition"
+                className="block px-6 py-3 text-gray-400 hover:text-lime-300 transition"
               >
                 {link.name}
               </a>

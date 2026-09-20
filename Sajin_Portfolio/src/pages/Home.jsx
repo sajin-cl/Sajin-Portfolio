@@ -30,7 +30,6 @@ export default function Home() {
       <Toaster position="bottom-right" toastOptions={{ style: { width: "250px" } }} />
       <Suspense fallback={loader}>
         <Hero />
-      
         <BackToTop />
         <CodingProfiles/>
         <About />

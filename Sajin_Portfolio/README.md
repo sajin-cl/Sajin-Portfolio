@@ -28,7 +28,7 @@ I don’t just learn — I build and test things practically.
 ### 🔹 PORTFOLIO
 
 * Short description of what it does
-* Tech used: React, CSS
+* Tech used: React, Tailwind CSS, GSAP
 * GitHub: https://github.com/sajin-cl/Sajin-Porfolio
 
 ---
@@ -43,7 +43,7 @@ I don’t just learn — I build and test things practically.
 
 ## 📫 Contact Me
 
-* Email: [sajincl222@gmail.com](mailto:sajincl222@gmail.com)
+* Email: [sajincl.dev@gmail.com](mailto:sajincl.dev@gmail.com)
 * GitHub: https://github.com/sajin-cl
 
 ---

@@ -10,7 +10,7 @@ function Testimonials({ testimonials }) {
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1, transition: { duration: 0.6 } }}
         viewport={{ once: true }}
-        className="font-bold mb-14 text-center text-4xl md:text-5xl font-sans text-lime-300">
+        className="font-bold mb-14 font-sans text-center text-4xl md:text-5xl  text-lime-300">
         WHAT OUR <span className="text-white">CLIENTS SAYS</span>
       </motion.h2>
 
