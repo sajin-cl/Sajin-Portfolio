@@ -44,7 +44,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-white/70 text-xs font-semibold text-center md:text-start md:ml-5 pt-4 border-t border-white/10 font-mono tracking-wider">
-        © {new Date().getFullYear()} <span className="text-lime-300">Sajin CL</span>. All Rights Reserved.
+        © {new Date().getFullYear()} <a href="https://www.facebook.com/C.L.Sajin/" className="text-lime-300 cursor-auto">Sajin CL</a>. All Rights Reserved.
       </div>
       <div className="text-white/50 text-[10px]  text-center md:text-start md:ml-5 pt-1 pb-4 font-mono tracking-wider">
       Built with passion. Designed with purpose.
