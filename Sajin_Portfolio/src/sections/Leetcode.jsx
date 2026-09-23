@@ -14,7 +14,7 @@ const Leetcode = () => {
       viewport={{ once: true, amount: 0.6 }}
       className="min-h-[400px] w-full flex justify-center items-center bg-stone-950"
     >
-      <div className="w-full max-w-6xl flex flex-col md:flex-row justify-between items-center gap-10 px-6 relative">
+      <div className="w-full max-w-full flex flex-col md:flex-row justify-between items-center gap-10 px-6 lg:px-10 relative">
 
         {/* Background Glow */}
         <div className="absolute w-[200px] h-[200px] bg-lime-400/10 rounded-full blur-[120px]"></div>

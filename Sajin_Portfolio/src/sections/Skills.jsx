@@ -11,14 +11,14 @@ const Skills = () => {
           initial={{ x: -50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1, transition: { duration: 0.6 } }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-mono font-bold text-white group px-4 md:px-10"
+          className="text-4xl md:text-5xl font-mono font-bold text-white group"
         >
           <span className="text-white group-hover:text-lime-400 transition duration-300">SKILLS</span>
           <span className="text-gray-400"> &</span> <span className="text-lime-400 group-hover:text-white transition duration-300">TECHNOLOGY</span>
         </motion.h1>
 
         <motion.p
-          className="text-gray-400 mb-3 tracking-wide font-inter px-4 md:px-10"
+          className="text-gray-400 mb-3 tracking-wide font-inter"
           initial={{ x: 20, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1, transition: { duration: 0.6 } }}
           viewport={{ once: true }}
@@ -39,7 +39,7 @@ const Skills = () => {
         <div className="skills-explore grid grid-cols-1 lg:grid-cols-3  mt-20 mb-5">
 
           {/* Proficiency */}
-          <div className="proficiecy-container px-5 py-2">
+          <div className="proficiecy-container p-2">
             <h2 className="text-lime-300 text-xs mb-5 font-mono">PROFICIENCY</h2>
             {PROFICIENCY_DATA.map((prof, idx) => (
               <div
@@ -106,7 +106,7 @@ const Skills = () => {
           </div>
 
           {/* SERVICES & INTEGRATIONS */}
-          <div className="service-integrations-container px-5 py-2">
+          <div className="service-integrations-container p-2">
             <h2 className="text-lime-300 text-xs mb-5 font-mono">SERVICES & INTEGRATIONS</h2>
             <div className="flex flex-wrap gap-2">
               {SERVICE_INTEGRATIONS_DATA.map((service, idx) => (

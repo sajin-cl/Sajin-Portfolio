@@ -9,7 +9,7 @@ const Footer = () => {
       viewport={{ once: true }}
       className="w-full bg-stone-950 border-t border-lime-300/40 relative"
     >
-      <div className="max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row justify-between items-center gap-6">
+      <div className="max-w-full mx-auto px-4 lg:px-5 py-8 flex flex-col md:flex-row justify-between items-center gap-6">
         {/* Logo */}
         <a
           href="#hero"

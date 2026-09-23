@@ -31,7 +31,7 @@ const FAQ = () => {
           availability.
         </motion.p>
       </div> 
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-full mx-auto px-4 lg:px-8">
 
         {FAQ_DATA.map((faq, index) => (
           <div key={index} className="py-5 border-b border-gray-900">

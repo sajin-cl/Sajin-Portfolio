@@ -113,7 +113,7 @@ const Contact = () => {
       <div className="w-full md:p-8 mx-auto grid lg:grid-cols-2 gap-8">
 
         {/* Contact Details */}
-        <div className="contact-info order-2 lg:order-1 w-full p-5 flex flex-col justify-center">
+        <div className="contact-info order-2 lg:order-1 w-full py-5 flex flex-col justify-center">
           {CONTACT_DETAILS_DATA.map((cont, idx) => {
             const Icon = cont?.icon;
             return (
