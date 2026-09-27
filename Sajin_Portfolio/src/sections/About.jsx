@@ -17,6 +17,7 @@ const About = () => {
             autoPlay
             loop
             muted
+            disablePictureInPicture
             playsInline
             preload="auto"
             className="object-contain p-3 w-full max-w-[520px] h-auto mix-blend-color-dodge scale-125"
