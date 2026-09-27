@@ -1,6 +1,6 @@
-import { FaGithub,FaGitlab, FaLinkedin, FaWhatsapp,FaLinux } from "react-icons/fa";
+import { FaGithub, FaGitlab, FaLinkedin, FaWhatsapp, FaLinux } from "react-icons/fa";
 import {
-  SiLeetcode, SiPostman, SiHtml5, SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiExpress, SiTailwindcss, SiBootstrap, SiFigma, SiVercel, SiMongodb, SiGithub, SiHandlebarsdotjs, SiSubstack,SiGsap
+  SiDocsify, SiLeetcode, SiPostman, SiHtml5, SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiExpress, SiTailwindcss, SiBootstrap, SiFigma, SiVercel, SiMongodb, SiGithub, SiHandlebarsdotjs, SiSubstack, SiGsap
 } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io5";
 import { GrMysql } from "react-icons/gr";
@@ -57,7 +57,7 @@ export const FREELANCE_PROJECT_COUNT = 3;
 export const CODING_PROFILE_DATA = [
   { title: 'LINKEDIN CONNECTIONS', count: 1600 },
   { title: 'GITHUB REPO', count: 20 },
-  { title: 'LEETCODE PROBLEMS', count: LEETCODE_PORBLEMS_COUNT }, 
+  { title: 'LEETCODE PROBLEMS', count: LEETCODE_PORBLEMS_COUNT },
   { title: 'TOTAL PROJECTS', count: PROJECT_COUNT },
   { title: 'FREELANCE PROJECT', count: FREELANCE_PROJECT_COUNT },
 ];
@@ -72,8 +72,9 @@ export const SKILLS_DATA = {
     { name: "Gitlab", color: "#FF6C37", icon: FaGitlab, isVisible: true },
     { name: "Figma", color: "#FF007F", icon: SiFigma, isVisible: true },
     { name: "Vercel", color: "#FFFFFF", icon: SiVercel, isVisible: true },
-    { name: "Windows", color: "#0078D4", icon: AiFillWindows , isVisible: true },
-    { name: "Linux", color: "#FFFFFF", icon: FaLinux , isVisible: true }
+    { name: "Docsify", color: "#00FF00", icon: SiDocsify, isVisible: true },
+    { name: "Windows", color: "#0078D4", icon: AiFillWindows, isVisible: true },
+    { name: "Linux", color: "#FFFFFF", icon: FaLinux, isVisible: true }
   ],
   techStack: [
     { name: "HTML", color: "#FF5733", type: 'Frontend', icon: SiHtml5, isVisible: true },
@@ -108,8 +109,8 @@ export const SERVICE_INTEGRATIONS_DATA = [
   { id: 1, name: 'Password Hashing' },
   { id: 2, name: 'JWT/Session Auth' },
   { id: 3, name: 'Restful APIs' },
-  { id: 4, name: 'Cloudinary ( Image Storage )' },
-  { id: 5, name: 'Cashfree ( Payment )' },
+  { id: 4, name: 'Cloudinary' },
+  { id: 5, name: 'Cashfree Payment' },
   { id: 6, name: 'Vercel' },
 ];
 

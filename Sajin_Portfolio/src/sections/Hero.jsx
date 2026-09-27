@@ -152,7 +152,7 @@ const Hero = () => {
               href="/SajinCL_Mern_Stack_Developer_Resume.pdf"
               download="SajinCL_Mern_Stack_Developer_Resume.pdf"
               onClick={() => toast.success("CV Downloaded!")}
-              className="whitespace-nowrap px-16 md:px-28 py-3 bg-lime-400 text-black font-mono font-bold hover:bg-lime-300 transition-all duration-300 shadow-lg shadow-lime-400/20 hover:scale-105 active:scale-95 tracking-wider"
+              className="whitespace-nowrap px-16 md:px-32 py-3 bg-lime-400 text-black font-mono font-bold hover:bg-lime-300 transition-all duration-300 shadow-lg shadow-lime-400/20 hover:scale-105 active:scale-95 tracking-wider"
             >
               <span className="flex gap-3 items-center"> <GrDownload /> DOWNLOAD → CV</span>  
             </motion.a>
