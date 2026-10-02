@@ -117,6 +117,7 @@ const Hero = () => {
                 loop: true,
                 delay: 60,
                 deleteSpeed: 60,
+                cursor:''
               }}
             />
           </h2>

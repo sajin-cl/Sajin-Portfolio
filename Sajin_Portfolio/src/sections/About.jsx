@@ -20,7 +20,7 @@ const About = () => {
             disablePictureInPicture
             playsInline
             preload="auto"
-            className="object-contain p-3 w-full max-w-[520px] h-auto mix-blend-color-dodge scale-125"
+            className="object-contain p-3 w-full max-w-[540px] h-auto mix-blend-color-dodge scale-125"
           >
             <source src="https://res.cloudinary.com/dpc9p1npw/video/upload/f_auto,q_auto/hacker-intro_r7fdei.mp4" type="video/mp4" />
           </video>

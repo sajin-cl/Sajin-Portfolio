@@ -55,7 +55,7 @@ export const LEETCODE_PORBLEMS_COUNT = 100;
 export const FREELANCE_PROJECT_COUNT = 3;
 
 export const CODING_PROFILE_DATA = [
-  { title: 'LINKEDIN CONNECTIONS', count: 1600 },
+  { title: 'LINKEDIN CONNECTIONS', count: 1700 },
   { title: 'GITHUB REPO', count: 20 },
   { title: 'LEETCODE PROBLEMS', count: LEETCODE_PORBLEMS_COUNT },
   { title: 'TOTAL PROJECTS', count: PROJECT_COUNT },
@@ -102,7 +102,7 @@ export const PROFICIENCY_DATA = [
   { name: 'MongoDB / Mongoose ODM', percentage: 85 },
   { name: 'Tailwind CSS', percentage: 83 },
   { name: 'SEO Optimization', percentage: 53 },
-  { name: 'TypeScript', percentage: 24 },
+  { name: 'TypeScript', percentage: 22 },
 ];
 
 export const SERVICE_INTEGRATIONS_DATA = [
@@ -200,7 +200,7 @@ export const PROJECTS_DATA = [
   },
   {
     no: "05",
-    bannerName: "Portfolio",
+    bannerName: "Client Portfolio",
     name: "PORTFOLIO WEBSITE",
     category: "Freelance Project",
     timeline: "Apr 2026 - Apr 2026",
