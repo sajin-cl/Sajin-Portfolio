@@ -10,7 +10,7 @@ const FAQ = () => {
   };
 
   return (
-    <section id="faq" className="min-h-screen pt-20 mt-2 mb-10 bg-stone-950 overflow-x-hidden">
+    <section id="faq" className="pt-20 mt-2 mb-10 bg-stone-950 overflow-x-hidden">
       <div className="pr-2 md:pr-10">
         <motion.h2
           initial={{ x: 100, opacity: 0 }}
