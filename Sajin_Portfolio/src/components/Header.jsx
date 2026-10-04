@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 w-full bg-stone-950/98 z-50 overflow-x-hidden">
-      <nav className="container mx-auto px-2 h-14 flex items-center justify-between">
+      <nav className=" mx-auto px-4 md:px-8 h-14 flex items-center justify-between">
         <a
           className="text-xl font-bold text-lime-300 tracking-widest flex items-center gap-2 cursor-pointer animate-pulse"
           href="/#hero"
@@ -75,7 +75,7 @@ export default function Header() {
               e.preventDefault();
               handleNavClick("/#contact");
             }}
-            className="bg-lime-400 font-semibold  px-5 py-2 inline-block transform skew-x-[-20deg] hover:bg-lime-300 transition"
+            className="bg-lime-400  italic px-5 py-1 inline-block transform skew-x-[-20deg] hover:bg-lime-300 transition"
           >
             <span className="block skew-x-20 text-xs font-popins -tracking-tight">
               HIRE ME ↗

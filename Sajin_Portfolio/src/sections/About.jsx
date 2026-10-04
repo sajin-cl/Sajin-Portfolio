@@ -1,11 +1,9 @@
 import { motion } from "framer-motion";
-import Counter from "@/components/Counter";
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import styles from "@/styles/Testimonials.module.css";
+import AboutHighlights from "@/components/AboutHighlights";
 
 const About = () => {
 
-  const [start, setStart] = useState(false);//used for counter
 
   return (
     <section id="about" className="min-h-screen bg-stone-950 mt-10 pt-5 overflow-x-hidden">
@@ -24,6 +22,7 @@ const About = () => {
           >
             <source src="https://res.cloudinary.com/dpc9p1npw/video/upload/f_auto,q_auto/hacker-intro_r7fdei.mp4" type="video/mp4" />
           </video>
+
         </div>
 
         {/* Right side content */}
@@ -70,115 +69,40 @@ const About = () => {
         </div>
       </div>
 
-      {/* FAQ DETAILS COMTAINER */}
-      <div className="faq-section relative ">
+      {/* Marquee Section started here */}
 
-        <span className="absolute top-1/12 right-15 transform -translate-y-1/2 text-gray-400 text-9xl font-bold opacity-20 pointer-events-none select-none hidden lg:block">
-          QUALITY <span className="block text-3xl leading-tight tracking-[1em] text-center">FIRST</span>
-        </span>
+      <div className="overflow-hidden whitespace-nowrap border-y border-dashed border-lime-300/30 py-3">
+        <div className={`flex w-max animate-marquee ${styles.marquee}`}>
+          <span className="mx-8 text-lime-300 font-space tracking-[0.3em]">
+            AVAILABLE FOR FREELANCE PROJECTS
+          </span>
+          <span className="mx-8 text-white">✦</span>
 
-        <span className="absolute top-10/12 left-15   text-gray-400 text-9xl font-extrabold opacity-20 pointer-events-none select-none font-popins hidden xl:block">
-          100 %  SPEED
-          <span className="block text-3xl leading-tight tracking-[1em] text-center">RUN LIKE A HORSE</span>
-        </span>
+          <span className="mx-8 text-lime-300 font-space tracking-[0.3em]">
+            OPEN TO FULL-TIME OPPORTUNITIES
+          </span>
+          <span className="mx-8 text-white">✦</span>
 
-        {/* Happy Clients */}
-        <motion.div
-          onViewportEnter={() => setStart(true)}
-          viewport={{ once: true, amount: 0.6 }}
-          className="happy-clients text-start my-20 px-4 md:px-20 flex flex-wrap items-center justify-center md:justify-self-start gap-10">
-          <h1 className="text-4xl md:text-5xl font-bold text-white tracking-wide">
-            <motion.span
-              initial={{ x: -50, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1, transition: { duration: 0.6 } }}
-              viewport={{ once: true }}
-              className="text-white block">HAPPY</motion.span>
-            <motion.span
-              initial={{ x: -50, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1, transition: { duration: 0.6 } }}
-              viewport={{ once: true }}
-              className="text-lime-400 ">CLIENTS</motion.span>
-          </h1>
-          <motion.span
-            initial={{ y: -80, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { duration: 0.6 } }}
-            viewport={{ once: true }}
-            className="inline-block text-lime-300 text-9xl font-bold">
-            <Counter value={3} start={start} />
-          </motion.span>
-        </motion.div>
+          <span className="mx-8 text-lime-300 font-space tracking-[0.3em]">
+            REACT.JS • NEXT.JS • NODE.JS • MONGODB
+          </span>
+          <span className="mx-8 text-white">✦</span>
 
-        {/* Contact Call to Action */}
-        <motion.span
-          initial={{ x: 50, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1, transition: { duration: 0.6 } }}
-          viewport={{ once: true }}
-          className="text-gray-100  text-4xl text-end block tracking-widest px-4 md:px-20 mt-20 mb-5"
-        >
-          <span className="text-7xl">D</span>O YOU
-          <span className="text-lime-300"> WANT A WEBSITE?</span>
-        </motion.span>
+          {/* Duplicate for seamless loop */}
+          <span className="mx-8 text-lime-300 font-space tracking-[0.3em]">
+            AVAILABLE FOR FREELANCE PROJECTS
+          </span>
+          <span className="mx-8 text-white">✦</span>
 
-        <span className="group text-gray-100 text-4xl text-end block tracking-widest px-4 md:px-20 mb-20">
-          <span className="group-hover:text-lime-300 duration-500">JUST</span>
-          <Link to="#contact" className="text-lime-300 cursor-pointer group-hover:text-gray-100 duration-200 animate-pulse ml-2 group-hover:ml-3 group-hover:font-bold">CONTACT NOW</Link>
-        </span>
-
-        {/* Query about main Stack */}
-        <motion.span
-          initial={{ x: -50, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1, transition: { duration: 0.6 } }}
-          viewport={{ once: true }}
-          className="text-gray-100  text-4xl text-start block tracking-widest px-4 md:px-20 mt-20 mb-5"
-        >
-          <span className="text-7xl">W</span>HAT IS YOUR
-          <span className="text-lime-300" > PRIMARY STACK?</span>
-        </motion.span>
-
-        <span className="group text-gray-100 text-4xl text-start block tracking-widest px-4 md:px-20 mb-20"
-          title="MongoDB, Express.js, React.js, Node.js"
-        >
-          <span className="group-hover:text-lime-300 duration-500 animate-pulse mr-2 group-hover:mr-3 group-hover:font-bold">MERN</span>
-          <Link className="text-lime-300  group-hover:text-gray-100 duration-200 text-lg">stack</Link>
-        </span>
-
-
-        {/* performance Query */}
-        <motion.span
-          initial={{ x: 50, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1, transition: { duration: 0.6 } }}
-          viewport={{ once: true }}
-          className="text-gray-100 text-4xl text-end block tracking-widest px-4 md:px-20 mt-20 mb-7"
-        >
-          <span className="text-7xl">H</span>ow do you ensure
-          <span className="text-lime-300"> WEBSITE SPEED?</span>
-        </motion.span>
-
-        <ul className="group text-gray-100 text-4xl block tracking-widest px-4 md:px-20 mb-20 max-w-max ml-auto">
-          <li className="text-xl mb-3 grid grid-cols-[auto_1fr] gap-3 items-center">
-            <span className="text-gray-400">→</span>
-            <div>
-              <span className="text-sm">compress</span>
-              <span className="text-lime-300 font-bold"> IMAGES</span>
-            </div>
-          </li>
-          <li className="text-xl mb-3 grid grid-cols-[auto_1fr] gap-3 items-center">
-            <span className="text-gray-400">→</span>
-            <div>
-              <span className="text-sm">lazy</span>
-              <span className="text-lime-300 font-bold"> LOADING</span>
-            </div>
-          </li>
-          <li className="text-xl mb-3 grid grid-cols-[auto_1fr] gap-3 items-center">
-            <span className="text-gray-400">→</span>
-            <div>
-              <span className="text-sm">minify</span>
-              <span className="text-lime-300 font-bold"> CODE</span>
-            </div>
-          </li>
-        </ul>
-
+          <span className="mx-8 text-lime-300 font-space tracking-[0.3em]">
+            OPEN TO FULL-TIME OPPORTUNITIES
+          </span>
+          <span className="mx-8 text-white">✦</span>
+        </div>
       </div>
+      {/* Marquee Section ends here */}
+
+      <AboutHighlights/>
 
     </section>
   );

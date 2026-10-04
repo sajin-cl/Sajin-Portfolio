@@ -94,13 +94,13 @@ const Contact = () => {
           viewport={{ once: true }}
           className="text-4xl md:text-5xl font-mono font-bold text-white mb-5"
         >
-          CONTACT <span className="text-lime-300">US</span>
+          LET'S <span className="text-lime-300">CONNECT</span>
         </motion.h1>
 
         <div className="text-white mb-5 text-xs font-mono w-full">
           <Typewriter
             options={{
-              strings: ["Currently seeking job opportunities. Reach out to connect!".toUpperCase()],
+              strings: ["Currently seeking job opportunities. Reach out to connect!".toUpperCase(),'CURRENTLY AVAILABLE FOR FREELANCE PROJECTS. REACH OUT TO CONNECT!'],
               autoStart: true,
               loop: true,
               delay: 80,

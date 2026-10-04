@@ -6,7 +6,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="min-h-screen bg-stone-950 pt-5 flex justify-center items-center">
-      <div className="container w-full  py-10 flex flex-col gap-4">
+      <div className=" w-full  py-10 flex flex-col gap-4 px-6 lg:px-10">
         <motion.h1
           initial={{ x: -50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1, transition: { duration: 0.6 } }}
@@ -26,7 +26,7 @@ const Skills = () => {
           <span
             className="text-gray-400 text-xs font-mono"
           >
-            I SPECIALIZE IN THE FOLLOWING TECHNOLOGIES & FRAMEWORKS
+            I SPECIALIZE IN THE FOLLOWING TECHNOLOGIES
           </span>
         </motion.p>
 

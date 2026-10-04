@@ -12,7 +12,7 @@ const Hero = () => {
 
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center bg-stone-950 pt- overflow-hidden">
-      <div className="container mx-auto px-6 flex flex-col lg:flex-row-reverse items-center justify-between gap-12">
+      <div className="w-full mx-auto px-6 lg:px-10 flex flex-col lg:flex-row-reverse items-center justify-between gap-12">
         {/* RIGHT SIDE: Animated Image & Floating Icons */}
         <div className="relative flex justify-center items-center w-full lg:w-1/2">
 
@@ -22,21 +22,21 @@ const Hero = () => {
           {/* Floating UI Icons */}
           <SiReact
             title="Library"
-            className="absolute text-lime-400 size-12 top-0 right-10 md:right-15 animate-[bounce_3s_infinite] drop-shadow-[0_0_10px_#0aff47]"
+            className="absolute text-lime-400 size-12 md:size-16 top-5 right-10 md:right-15 2xl:right-40 animate-[bounce_3s_infinite] drop-shadow-[0_0_10px_#0aff47]"
           />
           <FaNodeJs
             title="Lan"
-            className="absolute text-lime-400 size-10 bottom-10 left-10 md:left-20 animate-pulse drop-shadow-[0_0_20px_#0aff47] cursor-pointer"
+            className="absolute text-lime-400 size-10 bottom-10 left-10 md:left-20 lg:left-25 2xl:left-50 animate-pulse drop-shadow-[0_0_20px_#0aff47] cursor-pointer"
           />
           <SiTailwindcss
             title="Framework"
-            className="absolute text-lime-400 size-10 bottom-20 right-5 md:right-10 animate-[bounce_3s_infinite] drop-shadow-[0_0_10px_#0aff47]"
+            className="absolute text-lime-400 size-10 bottom-10 md:bottom-20 right-5 md:right-10 2xl:right-40 animate-[bounce_3s_infinite] drop-shadow-[0_0_10px_#0aff47]"
           />
 
           <motion.div
             drag
             dragConstraints={{ left: 0, right: 0, bottom: 0, top: 0 }}
-            className="absolute top-10 left-5 md:left-0 -rotate-18 font-space text-lime-400 font-bold animate-[bounce_2s_infinite] border-y-2 border-lime-300 p-4 md:p-6 rounded-full drop-shadow-[0_0_15px_#84ff65]"
+            className="absolute top-5 left-5 md:left-0 lg:left-5 2xl:left-30 -rotate-18 font-space text-lime-400 font-bold animate-[bounce_2s_infinite] border-y-2 border-lime-300 p-4 md:p-6 rounded-full drop-shadow-[0_0_15px_#84ff65]"
           >
             <div className="text-3xl md:text-5xl font-bold">
               <Counter value={PROJECT_COUNT} start={true} />+

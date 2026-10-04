@@ -170,7 +170,7 @@ export default function Projects() {
             ))}
           </div>
         </div>
-      </div>
+        <p aria-hidden='true' className="md:hidden text-white animate-pulse text-xs">Swipe <span className='text-lime-400 font-mono'>right</span> »»</p>      </div>
     </section>
   );
 };
