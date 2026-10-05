@@ -65,7 +65,10 @@ const Skills = () => {
 
           {/* Frontend skills*/}
           <div className="frontend-skills-container px-5 py-2">
-            <h2 className="text-lime-300 text-xs mb-5 font-mono">FRONTEND</h2>
+            <h2 className="text-lime-300 text-xs mb-5 font-mono">
+              sajin.cl@dev : ~$
+              <span className="text-white"> ls skills/frontend</span>
+            </h2>
             <div className="flex flex-wrap gap-2">
               {SKILLS_DATA.techStack
                 .filter((tech) => tech.type === "Frontend")
@@ -86,7 +89,10 @@ const Skills = () => {
 
           {/* Backend skills*/}
           <div className="backend-skills-container px-5 py-2">
-            <h2 className="text-lime-300 text-xs mb-5 font-mono">BACKEND</h2>
+            <h2 className="text-lime-300 text-xs mb-5 font-mono">
+               sajin.cl@dev : ~$
+              <span className="text-white"> ls skills/backend</span>
+            </h2>
             <div className="flex flex-wrap gap-2">
               {SKILLS_DATA.techStack
                 .filter((tech) => tech.type === "Backend")

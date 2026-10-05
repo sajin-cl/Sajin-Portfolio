@@ -69,38 +69,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* Marquee Section started here */}
-
-      <div className="overflow-hidden whitespace-nowrap border-y border-dashed border-lime-300/30 py-3">
-        <div className={`flex w-max animate-marquee ${styles.marquee}`}>
-          <span className="mx-8 text-lime-300 font-space tracking-[0.3em]">
-            AVAILABLE FOR FREELANCE PROJECTS
-          </span>
-          <span className="mx-8 text-white">✦</span>
-
-          <span className="mx-8 text-lime-300 font-space tracking-[0.3em]">
-            OPEN TO FULL-TIME OPPORTUNITIES
-          </span>
-          <span className="mx-8 text-white">✦</span>
-
-          <span className="mx-8 text-lime-300 font-space tracking-[0.3em]">
-            REACT.JS • NEXT.JS • NODE.JS • MONGODB
-          </span>
-          <span className="mx-8 text-white">✦</span>
-
-          {/* Duplicate for seamless loop */}
-          <span className="mx-8 text-lime-300 font-space tracking-[0.3em]">
-            AVAILABLE FOR FREELANCE PROJECTS
-          </span>
-          <span className="mx-8 text-white">✦</span>
-
-          <span className="mx-8 text-lime-300 font-space tracking-[0.3em]">
-            OPEN TO FULL-TIME OPPORTUNITIES
-          </span>
-          <span className="mx-8 text-white">✦</span>
-        </div>
-      </div>
-      {/* Marquee Section ends here */}
 
       <AboutHighlights/>
 
