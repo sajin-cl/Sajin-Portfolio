@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import styles from "@/styles/Testimonials.module.css";
 import AboutHighlights from "@/components/AboutHighlights";
+import AboutAI from "@/components/AboutAI";
 
 const About = () => {
 
@@ -69,7 +69,7 @@ const About = () => {
         </div>
       </div>
 
-
+      <AboutAI/>
       <AboutHighlights/>
 
     </section>

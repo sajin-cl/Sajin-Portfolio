@@ -11,6 +11,22 @@ import { MdAttachEmail, MdOutlineWifiCalling3 } from "react-icons/md";
 import { AiFillWindows } from "react-icons/ai";
 
 
+let searchQuery = "who is sajin cl";
+
+let encodedQuery = encodeURIComponent(searchQuery);
+
+const chatGPTLink = `https://chatgpt.com/?q=${encodedQuery}`;
+const perplexityLink = `https://www.perplexity.ai/search?q=${encodedQuery}`;
+const claudeLink = `https://claude.ai/new?q=${encodedQuery}`;
+const googleAILink = `https://www.google.com/search?q=${encodedQuery}&udm=50`;
+
+
+export const AI_DATA = [
+  { id: 1, name: 'perplexity', width: 35, path: '/perplexity-logo.svg', link: perplexityLink },
+  { id: 2, name: 'Ask Claude (press Enter to send)', width: 40, path: '/claude-ai-logo.svg', link: claudeLink },
+  { id: 3, name: 'Ask chatgpt (press Enter to send)', width: 40, path: '/chatgpt-logo.svg', link: chatGPTLink },
+  { id: 4, name: 'google ai', width: 40, path: '/gemini-logo.svg', link: googleAILink },
+];
 
 
 
