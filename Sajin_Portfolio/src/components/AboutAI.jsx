@@ -4,7 +4,7 @@ export default function AboutAI() {
 
 
     return (
-        <section id="aboutme-ai" className="flex flex-col justify-center items-end gap-5 container  mx-auto">
+        <section id="aboutme-ai" className="flex flex-col justify-center items-center md:items-end gap-5 container  mx-auto">
             <p className="border-y  border-lime-300 rounded-full text-gray-200 tracking-widest px-8 py-1 mt-10">
                 ASK AI ABOUT <span className="text-lime-300">SAJIN.CL</span>
             </p>
