@@ -22,10 +22,10 @@ const googleAILink = `https://www.google.com/search?q=${encodedQuery}&udm=50`;
 
 
 export const AI_DATA = [
-  { id: 1, name: 'perplexity', width: 35, path: '/perplexity-logo.svg', link: perplexityLink },
-  { id: 2, name: 'Ask Claude (press Enter to send)', width: 40, path: '/claude-ai-logo.svg', link: claudeLink },
-  { id: 3, name: 'Ask chatgpt (press Enter to send)', width: 40, path: '/chatgpt-logo.svg', link: chatGPTLink },
-  { id: 4, name: 'google ai', width: 40, path: '/gemini-logo.svg', link: googleAILink },
+  { id: 1, name: 'perplexity', width: 45, path: '/perplexity-logo.svg', link: perplexityLink },
+  { id: 2, name: 'Ask Claude (press Enter to send)', width: 50, path: '/claude-ai-logo.svg', link: claudeLink },
+  { id: 3, name: 'Ask chatgpt (press Enter to send)', width: 50, path: '/chatgpt-logo.svg', link: chatGPTLink },
+  { id: 4, name: 'google ai', width: 50, path: '/gemini-logo.svg', link: googleAILink },
 ];
 
 

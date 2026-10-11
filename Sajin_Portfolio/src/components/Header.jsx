@@ -44,7 +44,7 @@ export default function Header() {
         </a>
 
         {/* Desktop Navbar */}
-        <div className="hidden md:flex items-center font-mono text-sm gap-8">
+        <div className="hidden lg:flex items-center font-mono text-sm gap-8">
           {NAV_LINKS.map((link, index) => (
             isHashLink(link.href) ? (
               <a
@@ -84,7 +84,7 @@ export default function Header() {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden px-2">
+        <div className="lg:hidden px-2">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-lime-400"
@@ -100,7 +100,7 @@ export default function Header() {
 
       {/* Mobile Dropdown */}
       {isOpen && (
-        <div className="md:hidden bg-stone-950 border-t font-space border-stone-800">
+        <div className="lg:hidden bg-stone-950 border-t font-space border-stone-800">
           {NAV_LINKS.map((link, index) => (
             isHashLink(link.href) ? (
               <a

@@ -22,15 +22,15 @@ const Hero = () => {
           {/* Floating UI Icons */}
           <SiReact
             title="Library"
-            className="absolute text-lime-400 size-12 top-5 sm:top-0 right-10 md:right-15 2xl:right-40 animate-[bounce_3s_infinite] drop-shadow-[0_0_10px_#0aff47]"
+            className="absolute text-lime-400 size-12 top-5 sm:top-0 right-10 md:right-25 lg:right-15 2xl:right-40 animate-[bounce_3s_infinite] drop-shadow-[0_0_10px_#0aff47]"
           />
           <FaNodeJs
             title="Lan"
-            className="absolute text-lime-400 size-10 bottom-10 left-10 md:left-20 lg:left-25 2xl:left-50 animate-pulse drop-shadow-[0_0_20px_#0aff47] cursor-pointer"
+            className="absolute text-lime-400 size-10 bottom-10 left-5 md:left-25 lg:left-15 xl:left-20 2xl:left-40 animate-pulse drop-shadow-[0_0_20px_#0aff47] cursor-pointer"
           />
           <SiTailwindcss
             title="Framework"
-            className="absolute text-lime-400 size-10 bottom-10 md:bottom-20 right-5 md:right-10 2xl:right-40 animate-[bounce_3s_infinite] drop-shadow-[0_0_10px_#0aff47]"
+            className="absolute text-lime-400 size-10 bottom-10 md:bottom-20 right-2 md:right-20 lg:right-10 2xl:right-40 animate-[bounce_3s_infinite] drop-shadow-[0_0_10px_#0aff47]"
           />
 
           <motion.div
@@ -57,11 +57,11 @@ const Hero = () => {
                 duration: 5,
                 ease: "easeInOut",
               }}
-              src="https://res.cloudinary.com/dpc9p1npw/image/upload/v1774855802/profile_isla2l.webp"
-              alt="Sajin Profile"
+              src="https://res.cloudinary.com/dpc9p1npw/image/upload/f_auto,q_auto/sajin-cl-profile_qlpsx2.webp"
+              alt="Sajin CL Profile"
               size={400}
               fetchPriority="high"
-              className="w-full h-full scale-140 translate-y-10 object-contain"
+              className="w-full h-full scale-140 translate-y-7 object-contain"
             />
           </div>
         </div>
