@@ -45,7 +45,7 @@ export default function AboutAI() {
                 ASK AI ABOUT SAJIN.CL
             </p>
 
-            <MdKeyboardDoubleArrowRight className="shrink-0 text-lime-300 text-4xl md:text-6xl rotate-90 md:rotate-0" />
+            <MdKeyboardDoubleArrowRight className="shrink-0 text-gray-300 text-4xl md:text-6xl rotate-90 md:rotate-0" />
 
             <div className="ai-collection flex flex-wrap items-center justify-center gap-4 md:gap-5 ">
 
