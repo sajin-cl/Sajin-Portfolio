@@ -40,7 +40,7 @@ export default function AboutAI() {
             <p
                 ref={textRef}
                 aria-label="ASK AI ABOUT SAJIN.CL"
-                className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-mono text-gray-200 tracking-wide text-center md:text-left leading-tight"
+                className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-mono font-bold bg-linear-to-t from-gray-400 via-gray-200 to-gray-100 bg-clip-text text-transparent tracking-wide text-center md:text-left leading-tight"
             >
                 ASK AI ABOUT SAJIN.CL
             </p>
@@ -56,7 +56,7 @@ export default function AboutAI() {
                             target="_blank"
                             rel="noopener noreferrer"
                             key={ai?.id}
-                            className="hover:animate-pulse p-2 border-x-2 border-gray-400 rounded-full animate-spin"
+                            className="hover:animate-pulse p-2 border-x-2 border-dotted border-gray-400 rounded-full animate-spin"
                         >
                             <img
                                 src={ai?.path}
